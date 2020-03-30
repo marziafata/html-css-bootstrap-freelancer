@@ -88,6 +88,16 @@ right: 0;
     max-width: 100%;
 }
 
+img::after:hover {
+    /* content: "\f067";
+    font-weight: bold;
+    color: white;
+    font-family: "Font Awesome 5 Pro"; */
+    background-color: #19bc9b;
+    display: block;
+    height: 260px;
+}
+
 #about {
     background-color: #19bc9b;
     color: white;
@@ -121,6 +131,12 @@ right: 0;
     border-color: white;
 }
 
+#contact {
+    color: #2c3e50;
+    padding: 100px 0;
+}
+
+
 .form-group {
     text-align: left;
 }
@@ -131,5 +147,38 @@ right: 0;
     color: white;
     border-radius: 5px;
     padding: 20px;
-    text-align: left;
+}
+
+.btn-default:hover {
+    background-color: #169c81;
+    color: white;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 100px 0;
+}
+
+.icone i {
+    font-size: 35px;
+    padding: 14px;
+}
+
+.icone i:hover {
+    background-color: white;
+    border-radius: 50%;
+    color: #2c3e50;
+}
+
+p span {
+    color: #19bc9b;
+}
+
+p span:hover {
+    color: #169c81;
+}
+
+.paragrafi {
+    margin-bottom: 27px;
 }
