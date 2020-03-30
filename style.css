@@ -120,3 +120,16 @@ right: 0;
     background-color: white;
     border-color: white;
 }
+
+.form-group {
+    text-align: left;
+}
+
+.btn-default {
+    background-color: #19bc9b;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+}
